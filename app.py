@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Accueil logistique", layout="wide")
 
 # URLs des autres pages à ouvrir dans un nouvel onglet :
-url_bl = "https://tonsite.com/bon_de_livraison"      # Remplace ici par la vraie URL de la page "Bon de livraison"
+url_bl = "https://app-bon-livraison3-ncfb7urzyr7e3p5cwohdsk.streamlit.app"      # Remplace ici par la vraie URL de la page "Bon de livraison"
 url_qte = "https://tonsite.com/quantites_recues"     # Remplace ici par la vraie URL de la page "Quantités reçues"
 
 st.markdown("""
