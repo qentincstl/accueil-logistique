@@ -2,7 +2,7 @@ import streamlit as st
 # Vérification de mot de passe simple
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "tonmotdepasse123":
+        if st.session_state["password"] == "3DTRADEperso":
             st.session_state["password_correct"] = True
         else:
             st.session_state["password_correct"] = False
