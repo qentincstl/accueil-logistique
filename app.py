@@ -20,8 +20,8 @@ check_password()
 st.set_page_config(page_title="Accueil logistique", layout="wide")
 
 # URLs des autres pages à ouvrir dans un nouvel onglet :
-url_bl = "https://app-bon-livraison3-ncfb7urzyr7e3p5cwohdsk.streamlit.app/"      # Remplace ici par la vraie URL de la page "Bon de livraison"
-url_qte = "https://app-quantites-recues-c8olmzeaxjq7helzmh7qyc.streamlit.app/"
+url_bl = "http://192.168.2.22:8502"      # Remplace ici par la vraie URL de la page "Bon de livraison"
+url_qte = "http://192.168.2.22:8503"
 
 st.markdown("""
 <style>
